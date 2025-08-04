@@ -54,18 +54,6 @@ def parse_data(raw_data):
 
     if hedge.fusionImuUpdated:
         return hedge.print_imu_fusion()
-
-    if (hedge.positionUpdated):
-        return hedge.print_position()
-                    
-    if (hedge.distancesUpdated):
-        return hedge.print_distances()
-                    
-    if (hedge.rawImuUpdated):
-        return hedge.print_raw_imu()
-                    
-    if (hedge.fusionImuUpdated):
-        return hedge.print_imu_fusion()
                     
     if (hedge.telemetryUpdated):
         return hedge.print_telemetry()
@@ -91,3 +79,4 @@ client.connect(BROKER, PORT, keepalive=60)
 
 
 client.loop_forever()
+
