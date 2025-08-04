@@ -13,7 +13,7 @@ WIFI_PASS = 'xxxxxxxxxxxxxxx'
 MQTT_BROKER = 'io.adafruit.com'   
 MQTT_PORT = 1883
 MQTT_USER = 'GauravLNU'  
-MQTT_KEY = 'aio_uVIg99fo9iG7BMQqMIvU7dgua8cz'        
+MQTT_KEY = 'xxx_xxxxxxxxxxxxxx'        
 MQTT_TOPIC = 'GauravLNU/feeds/timestamp'
 
 
@@ -68,4 +68,5 @@ except KeyboardInterrupt:
 
 
 mqtt_client.disconnect()
+
 
