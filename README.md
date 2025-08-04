@@ -47,3 +47,8 @@ parse hedge function on marvlemind.py supports decoding the byte string:
 ```
 
 Note: the baove function or library is provided by marvelmind (sensor provider)
+
+Video link:
+
+[Operational Video](https://youtu.be/BVQj7JiMAIA)
+
